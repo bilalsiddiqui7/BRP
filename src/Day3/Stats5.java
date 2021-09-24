@@ -23,6 +23,7 @@ public class Stats5 {
 		}
 		System.out.println("The maximum value is "+maxm);
 		System.out.println("The average value is "+avg/5);
+		System.out.println("Hello");
 		
 	}
 }
