@@ -2,6 +2,7 @@
 //
 //Before:    0  0  1  0  3  0  5  0  6                                              
 //After:     1  3  5  6  0  0  0  0  0
+package BRPPractice;
 public class ArrayPractice {
 	public static void arrayPushZero(int arr[],int l) {
 		int count=0;

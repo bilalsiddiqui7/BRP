@@ -1,4 +1,4 @@
-
+package BRPPractice;
 public class factorialUsingRecursion {
 	public static void main(String[] args) {
 		int result=fact(7);

@@ -1,4 +1,4 @@
-
+package BRPPractice;
 public class Factorial {
 	public static void main(String[] args) {
 		factorial(7);

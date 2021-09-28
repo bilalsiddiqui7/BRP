@@ -10,5 +10,5 @@ public class RootsOfQuadraticEquation {
 		double n1=(-b+d1)/2*a;
 		double n2=(-b-d1)/2*a;
 		System.out.println(n1+" "+n2);
-	}
+ 	}
 }

@@ -1,3 +1,4 @@
+package BRPPractice;
 class Fib {
 	int n1=0;
 	int n2=1;

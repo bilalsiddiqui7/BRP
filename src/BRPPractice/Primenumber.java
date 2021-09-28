@@ -1,3 +1,4 @@
+package BRPPractice;
 import java.util.Scanner;
 
 public class Primenumber {

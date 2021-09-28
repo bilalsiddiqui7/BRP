@@ -1,3 +1,4 @@
+package BRPPractice;
 import java.util.Scanner;
 class Leap {
 	static public void leapYr() {

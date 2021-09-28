@@ -1,4 +1,4 @@
-
+package BRPPractice;
 public class APattern {
 	public static void main(String[] args) {
 		int firstpt=10;

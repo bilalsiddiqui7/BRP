@@ -1,15 +1,25 @@
 package PracticeProblems;
-public class ConceptsPractice {
-	public static void add(int ... a) {
-		int s=0;
-		for(int n:a) {
-			s=s+n;
-		}
-		System.out.println(s);
-	}
-	public static void main(String[] args) {
-		add(1,2,3,4,5,6,7,8,9,10);
-		
 
+public class ConceptsPractice{
+	public static void main(String[] args) {
+		try {
+			int[] arr=new int[5];
+			arr[6]=10;
+			int a=10;
+			int b=0;
+			int res=a/b;
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println(e);
+		}
+		catch(ArithmeticException e) {
+			System.out.println(e);
+		}
+		catch (Exception e){
+			System.out.println(e);
+		}
+		finally {
+			System.out.println("Bye");
+		}
 	}
 }
