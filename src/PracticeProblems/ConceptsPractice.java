@@ -1,25 +1,17 @@
 package PracticeProblems;
 
-public class ConceptsPractice{
-	public static void main(String[] args) {
-		try {
-			int[] arr=new int[5];
-			arr[6]=10;
-			int a=10;
-			int b=0;
-			int res=a/b;
-		}
-		catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println(e);
-		}
-		catch(ArithmeticException e) {
-			System.out.println(e);
-		}
-		catch (Exception e){
-			System.out.println(e);
-		}
-		finally {
-			System.out.println("Bye");
+import java.util.*;
+
+class ConceptsPractice{
+	public static void main(String[] args) throws Exception{
+		Map m=new HashMap();
+		m.put(1,"Bilal");
+		m.put(2,"Harsh");
+		m.put(3,"Japjeet");
+		m.put(4,"Sam");
+		Set s=m.keySet();
+		for(Object key : s) {
+			System.out.println(m.get(key));
 		}
 	}
 }
