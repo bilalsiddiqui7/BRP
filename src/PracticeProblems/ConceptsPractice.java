@@ -4,14 +4,18 @@ import java.util.*;
 
 class ConceptsPractice{
 	public static void main(String[] args) throws Exception{
-		Map m=new HashMap();
-		m.put(1,"Bilal");
-		m.put(2,"Harsh");
-		m.put(3,"Japjeet");
-		m.put(4,"Sam");
-		Set s=m.keySet();
-		for(Object key : s) {
-			System.out.println(m.get(key));
+		int[] arr= {6,8,4,9,7};
+		int l=arr.length;
+		for(int i=0;i<l;i++) {
+			for(int j=0;j<l-1;j++) {
+				if(arr[j]>arr[j+1]) {
+					int temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;
+				}
+			}
 		}
+		for(int a:arr)
+			System.out.println(a);
 	}
 }

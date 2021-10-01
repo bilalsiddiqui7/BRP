@@ -18,12 +18,12 @@ public class StringFunctions {
 	public static void anagrams(String s1,String s2) {
 		char[] c1=s1.toCharArray();
 		char[] c2=s2.toCharArray();
-		System.out.println(c1);
-		System.out.println(c2);
+//		System.out.println(c1);
+//		System.out.println(c2);
 		Arrays.sort(c1);
 		Arrays.sort(c2);
-		System.out.println(c1);
-		System.out.println(c2);
+//		System.out.println(c1);
+//		System.out.println(c2);
 		if(Arrays.equals(c1,c2)) {
 			System.out.println("Strings are Anagram");
 		} else {
